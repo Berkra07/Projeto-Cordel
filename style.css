@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Ancizar Serif", serif;
+    --fonte3: "Oleo Script", system-ui;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1)
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 5vw;
+}
+
+header > h2{
+  padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;  
+    font-weight: bolder;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 35px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+.Normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(48, 47, 47);
+}
+<<<<<<< HEAD
+    
+
+#img01{
+   background-image: url(imagens/background001.jpg);
+   background-position: right center;
+    
+}
+
+#img02{
+   background-image: url(imagens/background002.jpg); 
+}
+
+=======
+>>>>>>> parent of 470466d (configuração de img)
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
